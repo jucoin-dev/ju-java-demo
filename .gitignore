@@ -1,0 +1,54 @@
+HELP.md
+target
+.gradle
+**/logs
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+/logs
+.DS_Store
+.project
+/out
+
+### VS Code ###
+.vscode/
+
+tronj-0.1.1.jar
+
+
+/backup_privatekey
+/backup_privatekey_test
+/.address_pool_password.json
+/db
+/conf
+
+### LOCK file
+/walletd_wallet.LOCK
+/walletd_wallet_test.LOCK
+/walletd_wallet_localtest.LOCK
+walletd_wallet_tasks_tasks.LOCK
+/.gradle/
+
